@@ -1,0 +1,507 @@
+---
+title: "After Paris, Busan!"
+subtitle: "Progress on Bilateral Aid Fragmentation Afterall?"
+author: "Miles D. Williams"
+date: "December 18, 2017"
+output: 
+  pdf_document:
+    number_sections: yes
+geometry: margin=1in
+header-includes:
+- \usepackage{setspace}
+- \doublespacing
+- \setlength\parindent{24pt}
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyhead[RO]{Williams}
+- \fancyhead[RE]{}
+- \fancyhead[LO]{Progress on Bilateral Aid Fragmentation Afterall?}
+- \fancyhead[LE]{}
+fontsize: 12pt
+abstract: The consensus view on international development cooperation is that commitments to coordinate aid and reduce levels of aid fragmentation, though regularly made, are seldom realized. However, efforts to coordinate aid are also a relatively recent phenomenon, and the body of research that has, to date, explored the determinants of, and impediments to, development cooperation is, though growing, still thin. The pessimistic view in the literature is largely predicated on analysis of data in the period preceding and following the Paris Declaration on Aid Effectiveness; however, analysis of more recent data is (to this author's knowledge) absent from the literature. Thus, the effects of more recent commitments to cooperate on development goals, such as the Busan Partnership in 2011, have gone understudied. Have more recent attempts to coordinate, like past efforts, failed? To answer this question, I explore trends in aid fragmentation experienced by 76 aid recipient countries from 1998 to 2015. I find evidence that, while the Paris Declaration may have resulted in collective action problems that resulted in an intitial increase in aid fragmentation, the Busan Partnership was followed by a significant decline in aid fragmentation. These findings suggest that, in the face of early failures, continued efforts to coordinate aid have been moderately successful.
+---
+
+# Introduction
+Where cooperation on international development is concerned, the mainstream view is that "commitments are regularly professed but rarely fulfilled" (Chandy and Laurence qtd. in Nunnenkamp, Ohler, and Thiele 2013). In 2005, more than 100 donor and recipient countries committed to the Paris Declaration on Aid Effectiveness, and in 2008, the Accra Agenda for Action attempted to reinvigorate this commitment. Among several goals established at Paris, donor countries agreed to reduce aid fragmentation by improving the complementarity of their bilateral aid and by avoiding duplicate aid programs. Despite these professed commitments, most evidence to date suggests that progress has not only been nonexistent, fragmentation has worsened (Annen and Moers 2012; Nunnenkamp, Ohler, and Thiele 2013; Steinwand 2015). However, in the years following the Paris Declaration there have been further attempts to make headway on aid fragmentation, and the impact of these efforts has recieved little attention. Have more recent commentments, like those of the past, been all talk and no action?
+
+To answer this question, I collected data on the bilateral aid dispersements of 29 Development Assistance Committee (DAC) members of the Organization for Economic Co-operation and Development (OECD) to 76 aid recipient countries from 1998 to 2015. Using this data, I created a measure of the level of aid fragmentation experienced by each recipient per year, and I examined the year-to-year trend in aid fragmentation experienced per recipient. Consisten with past research, I find that in the period following the Paris Declaration, aid fragmentation intially worsened. However, following the Accra Agenda for Action in 2008, levels reverted to the pre Paris Declaration mean. Moreover, following the Global Partnership for Effective Development Co-operation committed to in 2011 in Busan (Busan Partnership), aid fragmentation fell significantly below pre Paris Declaration levels. This may suggest that while early attempts to coordinate were fraught with collective action problems, donors may have overcome some of these challenges following the Busan Partnership.
+
+Though this study is limited in scope, it further raises a number of questions relevant to the literature on cooperation and compliance where development is concerned. Hopefully the findings presented here will spur further, and new avenues of, research on development coordination.
+
+This paper proceeds as follows. First, I begin with a brief discussion of the literature on donor coordination. I then discuss the GPEDC and its stated goal of reducing aid fragmentation via improved donor coordination. Following that, I describe my data and methods. Finally, I discuss my findings, their limitations, and suggestions for future research.
+
+# Review of the Literature
+Because donors have only recently begun to attempt coordination of foreign aid, the literature on aid allocation is thin where aid fragmentation and donor coordination are concerned; though, some research has explored whether herding pressures exist in the bilateral giving of donors (Berthelemy 2006; Frot and Santiso 2011; Davies and Klasen 2017). To date, the studies that have examined donor coordination generally have taken a pessimistic view; though, the intensity of this pessimism has been hardly uniform. 
+
+In an IMF (International Monetary Fund) working paper, Annen and Moers (2012) take the least sanguine position. They state that aid fragmentation is explained by donor efforts to spread their aid across recipients in order to maximize the relative impact of their giving. They further argue that, unless donors' interest in maximizing the relative impact of their own giving can be moderated (or better yet, subdued entirely), coordination of aid will remain an impossibility.
+
+Research by Nunnenkamp, Ohler, and Theile (2013) provides little reason to question the gloomy perspective of Annen and Moers (2012). These authors find that efforts to reduce aid fragmentation following the Paris Declaration---"a first attempt to tackle international policy coordination problems in the field of development aid" (Severino et al. 2010, 19)---not only failed, donor coordination in fact weakened. A similar finding was made by Steinwand (2015); though, the perspective he provides is more nuanced. He notes that while aid certainly possesses private goods characteristics that impel donor competition, this is not true in all circumstances---namely, in circumstances where aid has clear public goods qualities and where a lead donor is present to coordinate aid.
+
+Despite the fact that there may be some instances where all hope is not lost, much of the OECD-DAC's monitoring of progress towards Paris Declaration goals has revealed similarly disappointing results (OECD 2012). Importantly, however, the OECD's monitoring analysis admits that "commitments on donor complementarity did not include specific targets or define indicators for assessing progress" (OECD 2012, 67). The difficulty of defining ideal targets for levels of aid fragmentation and the lack of agreement on how to measure progress likely did little to help. The proposed solution for overcoming this ambiguity was that developing countries were to take the lead in informing donors about their unique needs and communicate the optimal role each donor might play in perusing those needs. Reliable reporting, however, remained an important challenge.
+
+Despite limited progress revealed by monitoring of the Paris and Accra agreements, OECD reporting on more recent commitments to development coordination, such as the GPEDC, have been slightly more positive. According to a 2016 monitoring round of the Busan Partnership, "development partners have made progress in the comprehensiveness of publicly available information on development co-operation, and moderate progress in upgrading reporting practices to make reporting more timely" (OECD/UNDP 2016, 23). As the report additionally states, "Access to high-quality, timely and relevant information on development funding means that: governments can plan and strategically manage the use of diverse development co-operation resources in support of their development priorities" and "development partners can co-ordinate their support to promote synergies as well as avoid fragmentation and duplication of effort" (OECD/UNDP 2016, 23). Though the multitude of factors that likely promote aid fragmentation are great, the OECD report on the Busan Partnership projects a somewhat hopeful view that improvements in the timeliness and accuracy of reporting have the potential to facilitate progress on aid fragmentation. 
+
+
+# Data and Methods
+Approaches taken to measure aid fragmentation differ; though, the most common and straightforward approach is a Herfindahl-Hirschmann Index (HHI) like measure of donor concentration (Steinwand 2015). I follow a similar approach here; however, my measure differs slightly. A HHI measure of donor concentration entails squaring the share of aid to a given recipient contributed by each individual donor and summing up across donors. The possible values obtained via this method range from 0 to 10,000, with values closer to 10,000 indicating that one or a few donors are contributing outsized shares of aid to a given recipient. Scores closer to 0 reflect more equally distributed shares of aid contributed by all donors (that is, more fragmented aid). The measure I use takes a somewhat similar approach. For a given year $t$, I square the proportion of aid $\pi$ contributed by each donor $j$ to a given recipient $i$ and sum up across donors. I then subtract this measure from 1 and multiply by 100.
+$$F_{i,t}=\left(1-\sum_{j=1}^n\pi_{j,i,t}\right) \times 100$$
+This method provides an interval measure that ranges from 0 to 100 where values closer to 100 signify more aid fragmentation. This measure essentially is the probability (multiplied by 100) that, if two dollars are randomly drawn from the total aid given to a recipient in a given year, that the contributing donor of the first dollar drawn will not be the same donor that contributed the second dollar drawn.
+
+I calculated a measure of aid fragmentation for 76 aid recipient countries from 1998 to 2015 using data on the gross bilateral aid dispersements (in millions of 2015 US dollars) of 29 DAC members of the OECD (I excluded the EU, which is also a DAC member).[^1] Though more than 76 countries received bilateral aid, and more than 29 countries allocated aid during this period, I restricted my data to only those recipients that received bilateral aid for the entire period from 1998 to 2015 and to aid contributed by DAC countries, which more reliably report their aid dispersements to the OECD, to ensure that my measure of aid fragmentation is consistent and reliable for this period.
+
+To analyze this data, I first rely on primarily descriptive analysis of variation in aid fragmentation across recipients from 1998 to 2015. I break the data down by year and by recipient, and I further compare the mean level of aid fragmentation observed prior to the Paris Declaration (1998-2010) to the mean level observed following the Paris Declaration (2005-2010) and following the Busan Partnership (2011-2015). 
+
+I also estimate simple regression models for each year from 1999 to 2015 where I specify aid fragmentation per recipient at year $t$ as a function of aid fragmentation at year $t-1$ to explore variation in the impact of previous levels of aid fragmentation on future levels.
+
+Finally, I take advantage of the time-series features of my data by estimating a model where I specify aid fragmentation per recipient at year $t$ as a function of aid fragmentation at year $t-1$ and two indicator variables $P_t$ and $B_t$, one for the period following commitment to the Paris Declaration (2005-2010) and the other for the period following commitment to the Busan Partnership (2011-2015). I further include recipient $R_i$ and year $T_t$ fixed effects. This specification treats the Paris Declaration and the Busan Partnership as exogenous shocks to the year-to-year trend in aid fragmentation. I further consider alternative specifications, one where I collapse $P_t$ and $B_t$ into a single indicator $U_t$ and another two where I interact the lag of aid fragmentation with the post Paris and Busan indicators, as well as with the collapsed indicator. The latter two models test whether the magnitude and direction of the trend in aid fragmentation is contingent upon the Paris Declaration and the Busan Partnership. The equations for these models are shown below:
+
+  (1) $F_{i,t}=\beta_0 + \beta_1F_{i,t-1} + \beta_2P_t + \beta_3B_t + R_i + T_t + \varepsilon_{i,t}$
+  (2) $F_{i,t}=\gamma_0 + \gamma_1F_{i,t-1} + \gamma_2U_t + R_i + T_t + \upsilon_{i,t}$
+  (3) $F_{i,t}=\delta_0 + \delta_1F_{i,t-1} + \delta_2P_t + \delta_3B_t + \delta_4F_{i,t-1}P_t + \delta_5F_{i,t-1}B_t + R_i + T_t + \mu_{i,t}$
+  (4) $F_{i,t}=\eta_0 + \eta_1F_{i,t-1} + \eta_2U_t + \eta_3F_{i,t-1}U_t + R_i + T_t + \nu_{i,t}$
+
+I further consider an additional set of equations where I separate the Paris indicator into a Paris and an Accra indicator as well.
+
+[^1]: I obtained my data from *OECD.stat*.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE,
+                      message = FALSE)
+```
+
+
+# Analysis and Discussion
+## Descriptive Analysis
+
+```{r data, include=FALSE}
+aid <- read.csv("C:/Users/Miles/Documents/UIUC/Fall 2017 Classes/Quant 1/Quant 1 Homework/Research Note/aid.data.2.0.csv")
+library(dplyr)
+library(ggplot2)
+aid$HHI <- (rowSums((aid[,-c(1:3)]/aid$Total)^2))*100
+aid$Paris <- 1
+aid$Paris[aid$Year < 2005] <- 0
+aid$Paris[aid$Year > 2010] <- 2
+aidT <- aid %>% filter(Year!=1998)
+aidTm1 <- aid %>% filter(Year!=2015)
+R <- aidT$Recipient
+Y <- aidT$Year
+HHI <- 100-aidT$HHI
+HHI.lag <- 100-aidTm1$HHI
+Paris <- aidT$Paris
+aid.new <- data.frame(HHI,HHI.lag,Paris,R,Y)
+```
+
+Descriptive statistics for the aid fragmentation are shown in table 1. For the period from 1998 to 2015 the distribution of aid fragmentation is right skewed with the bulk of recipients receiving more fragmented aid (mean of `r round(mean(100-aid$HHI),2)` and median of `r round(median(100-aid$HHI),2)`). However, there are a few cases that received more concentrated aid flows (Saint Helena and Montserrat in particular stand out with aid fragmentation scores of 0 during certain years included in the data).
+
+```{r descriptive table,size="small",cache=FALSE,results="asis"}
+stargazer::stargazer(data.frame(100-aid$HHI),header=FALSE,digits=2,title="Descriptive Statistics",
+                     covariate.labels = "Aid Fragmentation, 1998-2015",median = TRUE)
+```
+
+Figure 1 displays the mean level of aid fragmentation with 95% confidence intervals for each year from 1998 to 2015. Point estimates and their confidence intervals are color coded (red for the years prior to the Paris Declaration, green for the years following the Paris Declaration, and blue for the years following the Busan partnership). Though year-to-year levels of fragmentation clearly vary, mean levels from one year to the next are not significantly different from one another. However, a clear downward trend in aid fragmentation from 2008 to 2015 is apparent. 
+
+```{r summarySE, include=FALSE}
+detach("package:dplyr")
+summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
+                      conf.interval=.95, .drop=TRUE) {
+  library(plyr)
+  
+  # New version of length which can handle NA's: if na.rm==T, don't count them
+  length2 <- function (x, na.rm=FALSE) {
+    if (na.rm) sum(!is.na(x))
+    else       length(x)
+  }
+  
+  # This does the summary. For each group's data frame, return a vector with
+  # N, mean, and sd
+  datac <- ddply(data, groupvars, .drop=.drop,
+                 .fun = function(xx, col) {
+                   c(N    = length2(xx[[col]], na.rm=na.rm),
+                     mean = mean   (xx[[col]], na.rm=na.rm),
+                     sd   = sd     (xx[[col]], na.rm=na.rm)
+                   )
+                 },
+                 measurevar
+  )
+  
+  # Rename the "mean" column    
+  datac <- rename(datac, c("mean" = measurevar))
+  
+  datac$se <- datac$sd / sqrt(datac$N)  # Calculate standard error of the mean
+  
+  # Confidence interval multiplier for standard error
+  # Calculate t-statistic for confidence interval: 
+  # e.g., if conf.interval is .95, use .975 (above/below), and use df=N-1
+  ciMult <- qt(conf.interval/2 + .5, datac$N-1)
+  datac$ci <- datac$se * ciMult
+  
+  return(datac)
+}
+```
+
+```{r plot1,fig.cap="Average bilateral aid fragmentation over time (pre vs. post Paris Declaration)"}
+# -------------------------------------
+library(dplyr)
+windows()
+aid %>%
+  mutate(Paris=factor(car::recode(Paris,"1='Paris';0='Pre Paris';2='Busan'"),
+                      levels=c("Pre Paris","Paris","Busan"))) %>%  
+  mutate(HHI=100-HHI) %>%
+  summarySE(measurevar = "HHI", groupvars = c("Year","Paris")) %>%
+  ggplot(aes(x=Year,y=HHI,color=Paris)) + geom_point() + theme_minimal() +
+  theme(text=element_text(family="serif")) + 
+  theme(legend.title=element_blank()) +
+  theme(legend.position="bottom") +
+  scale_x_continuous(breaks=c(1998:2015)) +
+  theme(axis.text.x=element_text(angle=45)) +
+  theme(axis.text=element_text(color="black")) +
+  geom_errorbar(aes(ymin=HHI-ci,ymax=HHI+ci),width=.1) +
+  xlab("") + ylab("Mean Bilateral Aid Fragmentation") +
+  theme(panel.grid.minor.x = element_blank()) 
+```
+
+However, when the trend is further broken down by recipient (figure 2), it is clear that the decline in aid fragmentation was not uniform across cases. With varying degrees of intensity and fluctuation, several countries experienced a decline in aid fragmentation: Algeria, Angola, Botswana, Cabo Verde, Costa Rica, Cuba (in 2015), the Congo, Gambia, Guatemala, Lesotho, Liberia, Mauritius, Mexico, Namibia, Sao Tome and Principe, Sierra Leone, South Africa, and Swaziland. Meanwhile, others experienced an increase in aid fragmentation: the Central African Republic, Comoros, Djibouti, Egypt, among a few others.
+
+```{r plot2a, fig.cap="Bilateral aid fragmentation by recipient, 1998-2015",fig.width=10,fig.height=10,out.extra='angle=-90'}
+windows()
+aid %>% mutate(Paris=factor(car::recode(Paris,"1='Paris';0='Pre Paris';2='Busan'"),
+                      levels=c("Pre Paris","Paris","Busan"))) %>% 
+  ggplot(aes(x=Year,y=100-HHI,color=Paris)) + geom_point() + geom_line() +
+  facet_wrap(facets="Recipient") + theme_minimal() +
+  xlab("") + ylab("Bilateral Aid Fragmentation") +
+  theme(text=element_text(family="serif",size=6)) +
+  theme(axis.text=element_text(color="black"),
+        axis.text.x=element_text(angle=90),
+        legend.title=element_blank(),
+        legend.position="top") 
+```
+
+```{r plot4,fig.cap="Aid fragmentation by recipient (pre vs. post Paris Declaration)",fig.height=8}
+windows()
+aid %>% 
+  mutate(Paris=factor(car::recode(Paris,"1='Paris';0='Pre Paris';2='Busan'"),
+                      levels=c("Pre Paris","Paris","Busan"))) %>%
+  mutate(HHI=100-HHI) %>%
+  summarySE(measurevar = "HHI", groupvars = c("Recipient","Paris")) %>%
+  ggplot(aes(x=reorder(Recipient,HHI),y=HHI,color=Paris)) + geom_point() +
+  theme_minimal() +
+  theme(text=element_text(family="serif")) + 
+  theme(legend.title=element_blank()) +
+  theme(legend.position="top") +
+  theme(axis.text=element_text(color="black"),
+        axis.text.y=element_text(size=8)) +
+  geom_errorbar(aes(ymin=HHI-ci,ymax=HHI+ci),width=.1) +
+  xlab("") + ylab("Mean Aid Fragmentation\n(1998-2004 vs. 2005-2010 vs. 2011-2015)") +
+  coord_flip()
+```
+
+Further more, when the mean level of aid fragmentation experienced per recipient for the pre Paris, intra Paris, and intra Busan periods are compared, as in figure 3, which displays point estimates of the mean level of aid fragmentation with 95% confidence intervals per aid recipient for the pre Paris agreement (red), post Paris agreement (green), and Post Busan agreement (blue) periods, it is further clear that differences in means across periods per recipient are hardly uniform, and overlap in confidence intervals is observed in several cases. However, mean aid fragmentation in the post Busan period is generally lower relative to the other periods, but, again, there are notable exceptions where the opposite trend is observed. The three that stand out are Egypt, which experienced a revolution in 2011 followed by substantial civil unrest and a military coup in 2013; the Central African Republic, which was broiled in a civil war from 2012 to 2014 and has experienced continued violence in the wake of the civil war's end; and Niger, which in 2010 experienced a coup and has had to contend with spillover effects from conflicts in Libya, Mali, and Nigeria (a country that, while experiencing a decline in aid fragmentation following the Paris Declaration, also experienced a slight increase in aid fragmentation after 2010).[^2] These unique circumstances likely mean that each country received increased interest across donors in the 2011 to 2015 period, which likely contributed to an increase in aid fragmentation.
+
+When the data is agregated across recipients and broken down by period (1998-2004, 2005-2010, 2011-2015), the substantial changes in the relationship between past levels of fragmentation on future levels is not quite as obvious (figure 4). But, when the data is broken down by year, some notable patterns emerge. Figure 5 displays several scatter plots where aid fragmentation at year $t$ is on the y-axis and aid fragmentation at year $t-1$ is on the x-axis. The relationship between aid fragmentation and its lag is, unsurprisingly, positive. However, the magnitude of this effect takes a notable dip in 2005 and in 2009. 
+
+```{r plot2, fig.cap="Bilateral aid fragmentation as a function of past levels (pre vs. post Paris Declaration)"}
+windows()
+aid.new %>% 
+  mutate(Paris=factor(car::recode(Paris,"1='Paris';0='Pre Paris';2='Busan'"),
+                      levels=c("Pre Paris","Paris","Busan"))) %>%  
+  ggplot(aes(x=HHI.lag,y=HHI)) + geom_point() + geom_smooth(method="lm") +
+  facet_wrap(facets="Paris") + theme_minimal() +
+  xlab("Bilateral Aid Fragmentation (lagged)") + ylab("Bilateral Aid Fragmentation") +
+  theme(text=element_text(family="serif")) +
+  theme(axis.text=element_text(color="black")) 
+```
+
+```{r plot3,fig.cap="Bilateral aid fragmentation as a function of past levels (by year)",fig.height=8}
+windows()
+aid.new %>% 
+  ggplot(aes(x=HHI.lag,y=HHI)) + geom_point() + geom_smooth(method="lm") +
+  facet_wrap(facets="Y") + theme_minimal() +
+  xlab("Bilateral Aid Fragmentation (lagged)") + ylab("Bilateral Aid Fragmentation") +
+  theme(text=element_text(family="serif")) +
+  theme(axis.text=element_text(color="black"))
+```
+
+Variation in the magnitude of the positive relationship between aid fragmentation and its lag is especially apparent when aid fragmentation at year $t$ is regressed on its value at year $t-1$. Figure 6 displays estimated coefficients with 95% confidence intervals from several simple OLS models, one for each year from 1999 to 2015 (there is no model for 1998 since I have no data from 1997 with which to estimate the effect of the lag of aid fragmentation on its level in 1998). Estimates for 2005 and for 2009, again, stand out as being particularly low relative to estimates for other years. The estimates suggest that in each of these years (2005 and 2009), the level of aid fragmentation the year prior was associated with three fourths of that level the following year.
+
+```{r models1,fig.cap="Coefficient plot of OLS estimates (by year)"}
+library(broom)
+library(dotwhisker)
+mod1 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 1999,])) %>% mutate(model="1999")
+mod2 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2000,])) %>% mutate(model="2000")
+mod3 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2001,])) %>% mutate(model="2001")
+mod4 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2002,])) %>% mutate(model="2002")
+mod5 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2003,])) %>% mutate(model="2003")
+mod6 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2004,])) %>% mutate(model="2004")
+mod7 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2005,])) %>% mutate(model="2005")
+mod8 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2006,])) %>% mutate(model="2006")
+mod9 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2007,])) %>% mutate(model="2007")
+mod10 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2008,])) %>% mutate(model="2008")
+mod11 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2009,])) %>% mutate(model="2009")
+mod12 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2010,])) %>% mutate(model="2010")
+mod13 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2011,])) %>% mutate(model="2011")
+mod14 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2012,])) %>% mutate(model="2012")
+mod15 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2013,])) %>% mutate(model="2013")
+mod16 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2014,])) %>% mutate(model="2014")
+mod17 <- tidy(lm(HHI ~ HHI.lag, data = aid.new[aid.new$Y == 2015,])) %>% mutate(model="2015")
+
+windows()
+rbind(mod1,mod2,mod3,mod4,mod5,mod6,mod7,mod8,mod9,mod10,mod11,mod12,mod13,mod14,mod15,mod16,mod17) %>% 
+  relabel_predictors(c(HHI.lag="Aid Fragmentation\n(lagged)")) %>%
+  small_multiple() + theme_minimal() + ylab("Estimated Effect on Aid Fragmentation") +
+  theme(text=element_text(family="serif")) +
+  theme(axis.text = element_text(color="black"),
+        axis.text.x = element_text(angle=45)) +
+  geom_hline(yintercept = 0) +
+  theme(legend.position = "none") +
+  geom_label(aes(label=round(estimate,2)),size=2) +
+  theme(panel.grid.minor.x = element_blank())
+```
+
+
+[^2]: Information about each of these countries was obtained from the CIA World Factbook (2017).
+
+
+## Multiple Regression
+Figures 7-10 are coefficient plots of OLS estimates for each of the four models specified earlier. Labels on the x-axis indicate the model specified for each set of estimates, and the y-axis labels on the right-hand side are the names of the covariates corresponding to the estimated coefficients. Point estimates are the estimated coefficients and the whiskers are 95% confidence intervals. If the whiskers intersect with 0 on the x-axis, the estimated coefficient fails to reach statistical significance at $p < 0.05$. Each model was estimated for $N=1,292$ recipient-year observations.
+
+The first two models are additive---thus, the estimated coefficients for the Paris Declaration and the Busan Partnership indicators reflect the estimated change in the intercept for each period while the estimate for the lag of aid fragmentation (the slope coefficient) is unchanged across periods. The additive specification, therefore, assumes that the relationship between past and future levels of aid fragmentation remains otherwise the same across periods while the Paris Declaration and the Busan Partnership effect only the intercept of the trend; not the magnitude nor the direction of the slope of the trend itself.
+
+```{r models,fig.cap="Coefficient plot of OLS estimates (specification 1)",fig.width=3}
+mod1 <- lm(HHI ~ HHI.lag + as.factor(Paris), data=aid.new)
+mod2 <- lm(HHI ~ HHI.lag + as.factor(Paris) + R + as.factor(Y), data=aid.new)
+
+library(broom)
+library(dotwhisker)
+
+modty1 <- tidy(mod1) %>% mutate(model="No Fixed Effects\nAdj. R-squared = 0.76")
+modty2 <- tidy(mod2)[1:4,] %>% mutate(model="Fixed Effects\nAdj. R-squared = 0.81")
+
+windows()
+rbind(modty1,modty2) %>% 
+  relabel_predictors(c(HHI.lag="Aid Fragmentation\n(lagged)",
+                       `as.factor(Paris)1`="Paris",
+                       `as.factor(Paris)2`="Busan")) %>%
+  small_multiple() + theme_minimal() + ylab("Estimated Effect on Aid Fragmentation") +
+  theme(text=element_text(family="serif")) +
+  theme(axis.text = element_text(color="black")) +
+  geom_hline(yintercept = 0) +
+  theme(legend.title = element_blank()) +
+  theme(legend.position = "none") +
+  geom_text(aes(label=round(estimate,2)),hjust = c(-.2,1.2,-.2,1.2,-.2,1.2)) +
+  theme(panel.grid.minor.x = element_blank())
+```
+
+```{r models1b,fig.cap="Coefficient Plot of OLS estimates (specification 2)",fig.width=3}
+mod1 <- lm(HHI ~ HHI.lag + Paris, data=aid.new %>% 
+             mutate(Paris=factor(car::recode(Paris,"0='Pre Paris';else='Post Paris'"),
+                                   levels=c("Pre Paris","Post Paris"))))
+mod2 <- lm(HHI ~ HHI.lag + Paris + R + as.factor(Y), data= aid.new %>% 
+             mutate(Paris=factor(car::recode(Paris,"0='Pre Paris';else='Post Paris'"),
+                                 levels=c("Pre Paris","Post Paris"))))
+modty1 <- tidy(mod1) %>% mutate(model="No Fixed Effects\nAdj. R-squared = 0.76")
+modty2 <- tidy(mod2)[1:3,] %>% mutate(model="Fixed Effects\nAdj. R-squared = 0.81")
+
+windows()
+rbind(modty1,modty2) %>%
+  relabel_predictors(c(HHI.lag="Aid Fragmentation\n(lagged)",
+                       `ParisPost Paris`="Post Paris")) %>%
+  small_multiple() + theme_minimal() + ylab("Estimated Effect on Aid Fragmentation") +
+  theme(text=element_text(family="serif"),
+        axis.text=element_text(color="black"),
+        panel.grid.minor.x=element_blank(),
+        legend.position="none") +
+  geom_hline(yintercept = 0) + 
+  geom_text(aes(label=round(estimate,2)),hjust=c(-.2,1.2,-.2,1.2))
+```
+
+As is indicated by figure 7, the estimated effect of the lag of aid fragmentation is positive and statistically significant; however, the magnitude of its effect is cut in half when controlling for fixed effects. Meanwhile, the effects of the Paris and Busan indicators are not statistically different from zero when the model is estimated without fixed effects, but with fixed effects, while the impact of the Paris indicator, though negative, remains insignificant, the Busan indicator's coefficient is negative and statistically significant at $p < 0.05$. This suggests that in the period following the Busan agreement the mean level of aid fragmentation is significantly lower than the mean level of fragmentation in the period prior to the Paris Declaration.
+
+When the Paris and Busan indicators are collapsed (figure 8), the effect looks almost identical to the effect of the Busan indicator, suggesting that for the entire period from 2005 to 2015 following the Paris agreement, the mean level of aid fragmentation was significantly lower than the mean level observed from 1998 to 2004.
+
+The OLS estimates from the multiplicative models are shown in figures 9 and 10. Here, unlike in the additive models, the assumption underlying the multiplicative specifications is that the Paris and Busan agreements not only impact the intercept, but also the slope of the relationship between past and future levels of aid fragmentation. 
+
+The coefficient for the interaction of the lag of aid fragmentation with each of the indicators indicates the change in the slope of the trend in aid fragmentation contingent on it being post Paris or post Busan. Thus, if the coefficents for the constituent terms (the lag of aid fragmentation and the Paris Declaration) are $\delta_1$ and $\delta_2$, respectively, and if the coefficient for the interaction term is $\delta_3$ (let the intercept be $\delta_0$), then the intercept and slope of the trend in aid fragmentation conditional on it being the pre Paris agreement period are simply $\delta_0$ and $\delta_1$. Meanwhile the intercept and slope of the trend in aid fragmentation conditional on it being the post Paris agreement period are $\delta_0 + \delta_2$ and $\delta_1 + \delta_3$, respectively.
+
+```{r models2,fig.cap="Coefficient plot of OLS estimates (specification 3)",fig.width=3,fig.height=8}
+mod1 <- lm(HHI ~ HHI.lag + as.factor(Paris) + HHI.lag*as.factor(Paris), data=aid.new)
+mod2 <- lm(HHI ~ HHI.lag + as.factor(Paris) + HHI.lag*as.factor(Paris) + R + as.factor(Y), data=aid.new)
+
+modty1 <- tidy(mod1) %>% mutate(model="No Fixed Effects\nAdj. R-squared = 0.76")
+modty2 <- tidy(mod2)[c(1:4,94:95),] %>% mutate(model="Fixed Effects\nAdj. R-squared = 0.81")
+
+windows()
+rbind(modty1,modty2) %>% 
+  relabel_predictors(c(HHI.lag="Aid Fragmentation\n(lagged)",
+                     `as.factor(Paris)1`="Paris",
+                     `as.factor(Paris)2`="Busan",
+                     `HHI.lag:as.factor(Paris)1`="Aid Fragmentation*\nParis",
+                     `HHI.lag:as.factor(Paris)2`="Aid Fragmentation*\nBusan")) %>%
+  small_multiple() + theme_minimal() +ylab("Estimated Effect on Donor Concentration") +
+  theme(text=element_text(family="serif")) +
+  theme(axis.text = element_text(color="black")) +
+  geom_hline(yintercept = 0) +
+  theme(legend.title = element_blank()) +
+  theme(legend.position = "none") +
+  geom_text(aes(label=round(estimate,2)),hjust = c(-.2,1.2,-.2,1.2,-.2,1.2,-.2,1.2,-.2,1.2)) +
+  theme(panel.grid.minor.x = element_blank())
+```
+
+```{r ols,fig.cap="Coefficient plot of OLS estimates (specification 4)",fig.width=3,fig.height=8}
+mod1 <- lm(HHI ~ HHI.lag + Paris + HHI.lag*Paris, data=aid.new %>% 
+             mutate(Paris=factor(car::recode(Paris,"0='Pre Paris';else='Paris & Busan'"),
+                                 levels=c("Pre Paris","Paris & Busan"))))
+mod2 <- lm(HHI ~ HHI.lag + Paris + HHI.lag*Paris + R + as.factor(Y), data=aid.new %>% 
+             mutate(Paris=factor(car::recode(Paris,"0='Pre Paris';else='Paris & Busan'"),
+                                 levels=c("Pre Paris","Paris & Busan"))))
+
+modty1 <- tidy(mod1) %>% mutate(model="No Fixed Effects\nAdj. R-squared = 0.76")
+modty2 <- tidy(mod2)[c(1:3,94),] %>% mutate(model="Fixed Effects\nAdj. R-squared = 0.81")
+
+windows()
+rbind(modty1,modty2) %>% 
+  relabel_predictors(c(HHI.lag="Aid Fragmentation\n(lagged)",
+                     `ParisParis & Busan`="Post Paris",
+                     `HHI.lag:ParisParis & Busan`="Aid Fragmentation*\nPost Paris")) %>%
+  small_multiple() + theme_minimal() + ylab("Estimated Effect on Aid Fragmentation") +
+  theme(text=element_text(family="serif"),
+        axis.text = element_text(color="black"),
+        legend.position = "none",
+        panel.grid.minor.x = element_blank()) +
+  geom_hline(yintercept = 0) +
+  geom_text(aes(label=round(estimate,2)),hjust = c(-.2,1.2,-.2,1.2,-.2,1.2)) 
+```
+
+At face value, the multiplicative specifications seem more appropriate than the additive models, especially when the first figure discussed in the previous subsection is considered---clearly, not only did the mean level of aid fragmentation appear to change in the post Paris/Busan period, the trend in aid fragmentation appeared to as well. Even so, multiplicative specification did not substantially improve model fit, and, given the greater parsimony of the additive specification in the face of the added complexity of including interaction effects, it is hard to make a convincing case for why the multiplicative specification is preferable. 
+
+The estimates for the dummy contituent terms (shown in figures 9 and 10) are not statistically significant; although, the multiplicative term for the Paris indicator, but not the Busan indicator, is statistically significant. When the indicators are collapsed into a single post Paris Declaration indicator, the dummy constituent term, again, is not significant while the multiplicative term is, and its negative sign further indicates that the slope of the impact of past levels of aid fragmentation on subsequent levels was significantly lower conditional on it being the post Paris Declaration period. These findings, it is important to note, are restricted to the fixed effects models.
+
+
+## What about the Accra Agreement?
+
+The above discussion ignores the role that the Accra Agenda for Action may have played in fostering greater coordination and, thereby, reduced levels of aid fragmentation. In this section, I examine whether the Accra agreement had a significant effect unique from the Paris agreement in the 2005 to 2007 period and from the Busan agreement from 2011 to 2015. 
+
+```{r accra, fig.cap="Coefficient plot of OLS estimates (Accra specification)",fig.width=3,fig.height=8}
+mod1 <- lm(HHI ~ HHI.lag + Paris + R + as.factor(Y), data = aid.new %>%
+             mutate(Paris=factor(car::recode(Y,"c(1999,2000,2001,2002,2003,2004)='Pre Paris';c(2005,2006,2007)='Paris';c(2008,2009,20010)='Accra';c(2011,2012,2013,2014,2015)='Busan'"),
+                    levels=c("Pre Paris","Paris","Accra","Busan"))))
+modty1 <- tidy(mod1)[1:5,] %>% mutate(model="Model 1\nFixed Effects Included\nAdj. R-squared = 0.81")
+mod2 <- lm(HHI ~ HHI.lag + Paris + R + as.factor(Y), data = aid.new %>%
+             mutate(Paris=factor(car::recode(Y,"c(1999,2000,2001,2002,2003,2004)='Pre Paris';c(2005,2006,2007)='Paris';else='Accra & Busan'"),
+                    levels=c("Pre Paris","Paris","Accra & Busan"))))
+modty2 <- tidy(mod2)[1:4,] %>% mutate(model="Model 2\nFixed Effects Included\nAdj. R-squared = 0.81")
+
+windows()
+rbind(modty1,modty2) %>%
+  relabel_predictors(c(HHI.lag="Aid Fragmentation\n(lagged)",
+                       `ParisParis`="Paris",
+                       `ParisAccra`="Accra",
+                       `ParisBusan`="Busan",
+                       `ParisAccra & Busan`="Accra & Busan")) %>%
+  small_multiple() + theme_minimal() + ylab("Estimated Effect on Aid Fragmentation") +
+  theme(text=element_text(family="serif"),
+        axis.text=element_text(color="black"),
+        panel.grid.minor.x=element_blank(),
+        legend.position="none") +
+  geom_hline(yintercept = 0) + 
+  geom_text(aes(label=round(estimate,2)),hjust=c(-.2,1.2,-.2,1.2,-.2,0,-.2,0,0,1.2))
+```
+
+Figure 11 displays coefficient estimates for two models, one (model 1) where indicators for the Paris, Accra, and Busan agreements are included and another (model 2) where the Accra and Busan indicators are combined. The results suggest that the period immediately following the Paris Declaration and before the Accra agreement experienced a significant *increase* in mean aid fragmentation. Meanwhile the period following the Accra agreement and before the Busan agreement experienced a mean level of aid fragmentation not statistically different from the mean level experienced prior to Paris. Finally, in the period following the Busan Partnership, the mean level of aid fragmentation, consistent with the findings discussed earlier, is statistically lower than the mean level experienced prior to the Paris agreement. Interestingly, however, when the Accra and Busan indicators are collapsed, as in model 2, the effect for this new indicator is negative and statistically significant while the coefficient for the Paris indicator remains positive and statistically significant.
+
+The null finding for the Accra indicator is more informative than one might initially think. Its null effect may suggest that the positive shock in aid fragmentation that initially followed the Paris Declaration was potentially counteracted by the Accra Agenda. The null finding for the Accra indicator, therefore, may reflect the fact that the Accra Agenda was, in fact, somewhat effective at righting the course of aid fragmentation, which was intitially off mark following the agreement at Paris.
+
+```{r accra2, fig.cap="Coefficient plot of OLS estimates (Accra specification with interaction effects)",fig.width=3,fig.height=8.5}
+mod1 <- lm(HHI ~ HHI.lag + HHI.lag*Paris + R + as.factor(Y), data = aid.new %>%
+             mutate(Paris=factor(car::recode(Y,"c(1999,2000,2001,2002,2003,2004)='Pre Paris';c(2005,2006,2007)='Paris';c(2008,2009,20010)='Accra';c(2011,2012,2013,2014,2015)='Busan'"),
+                    levels=c("Pre Paris","Paris","Accra","Busan"))))
+modty1 <- tidy(mod1)[c(1:5,93:95),] %>% mutate(model="Model 1\nFixed Effects Included\nAdj. R-squared = 0.81")
+mod2 <- lm(HHI ~ HHI.lag + HHI.lag*Paris + R + as.factor(Y), data = aid.new %>%
+             mutate(Paris=factor(car::recode(Y,"c(1999,2000,2001,2002,2003,2004)='Pre Paris';c(2005,2006,2007)='Paris';else='Accra & Busan'"),
+                    levels=c("Pre Paris","Paris","Accra & Busan"))))
+modty2 <- tidy(mod2)[c(1:4,94:95),] %>% mutate(model="Model 2\nFixed Effects Included\nAdj. R-squared = 0.81")
+
+windows()
+rbind(modty1,modty2) %>%
+  relabel_predictors(c(HHI.lag="Fragmentation\n(lagged)",
+                       `ParisParis`="Paris",
+                       `ParisAccra`="Accra",
+                       `ParisBusan`="Busan",
+                       `ParisAccra & Busan`="Accra & Busan",
+                       `HHI.lag:ParisParis`="Fragmentation*\nParis",
+                       `HHI.lag:ParisAccra`="Fragmentation*\nAccra",
+                       `HHI.lag:ParisBusan`="Fragmentation*\nBusan",
+                       `HHI.lag:ParisAccra & Busan`="Fragmentation*\nAccra & Busan")) %>%
+  small_multiple() + theme_minimal() + ylab("Estimated Effect on Aid Fragmentation") +
+  theme(text=element_text(family="serif"),
+        axis.text=element_text(color="black"),
+        panel.grid.minor.x=element_blank(),
+        legend.position="none") +
+  geom_hline(yintercept = 0) + 
+  geom_text(aes(label=round(estimate,2)),hjust=c(-.2,1.2,-.2,1.2,-.2,0,-.2,0,-.2,1.2,-.2,0,-.2,0,0,1.2,0,1.2))
+```
+
+When multiplicative specifications are considered (figure 12), again, it is not entirely clear that they are substantively more informative than the additive specifications. The period following the Paris Declaration, though still associated with a positive increase in the intercept of the slope coefficient for the lag of aid fragmentation, nevertheless has a negative impact on the slope coefficient; however, the magnitude of this effect is not sizeable. The pattern is quite similar for the Accra agreement as well. Meanwhile, estimates for the constituent and multiplicative terms for Busan are not statistically significant. However, when the model is specified with a single indicator for Accra and Busan, the coefficient for this indicator's multiplicative term is negative and approaches significance at $p < 0.1$.
+
+
+# Conclusion
+The agreement endorsed in Busan in 2011 centered on four principles for making development
+cooperation more effective: (1) a focus on results in recipient countries; (2) recipients define
+their own development priorities and their preferred development portfolio; (3) sustainable
+development benefits from diversity and complementarity of aid contributions when all stake-
+holders participate; (4) cooperation initiatives should be transparent and held accountable
+to, not only stakeholders, but to all citizens as well (OECD/UNDP 2016). Movement toward
+Busan goals has been haphazard, as OECD monitoring admits, but reporting suggests that
+the Busan Partnership has been, at the very least, more successful in progressing
+toward development goals that, in particular, may facilitate reduction of aid fragmentation. 
+
+My own findings seem to indicate that the Busan Partnership has been moderately successful in combating aid fragmentaiton. Though many factors likely are
+responsible, the fact that country reporting of aid contributions has become both more timely
+and reliable is certainly a possible driving factor (OECD/UNDP 2016); however, more work of course needs to be
+done to determine if this is in fact the case. Noteably, this finding is somewhat weaker with multiplicative specification; however, given what little additional variance in the trend in aid fragmentation is explained with the inclusion of interaction effects, the additive models may be preferable as they are more parsimonious yet as equally informative.
+
+Even while the Busan Partnership appears to have been somewhat successful, the fact that the Paris Declaration was followed by an increase in the mean level of aid fragmentation may indicate that initial efforts to coordinate aid were fraught with collective action problems. As donors, at first, struggled to determine who should take the role of lead donor, they each may have increased their aid budgets across recipients in a scramble to ensure that efforts to coordinate would not also detract from the impact of their own giving. Tellingly, as figure 13 shows, total aid dispersments across the 76 recipients included in this analysis spiked in 2005 and 2006, which is consistent with donors increasing their aid spending in response to initial concerns that coordination might negatively impact their own interests. This is also consistent with past findings that have found that aid fragmentation worsened following the Paris Declaration. However, the fact that aid fragmentation levels eventually reverted to the pre Paris mean (following the Accra agreement) and then fell below this mean (following the Busan Partnership) suggests that the initial collective action problems encountered by donors were eventually overcome.
+
+```{r total,fig.cap="Total aid flows, 1998-2015"}
+library(doBy)
+windows()
+summaryBy(Total ~ Year, data=aid,
+          FUN = list(sum)) %>%
+  ggplot(aes(x=Year,y=(Total.sum*1000000)/1000000000)) + 
+  geom_point(color="blue") + geom_line(color="blue") +
+  theme_minimal() +
+  theme(text=element_text(family="serif"),
+        axis.text=element_text(color="black"),
+        axis.text.x = element_text(angle=45),
+        panel.grid.minor.x = element_blank()) +
+  scale_x_continuous(breaks = c(1998:2015)) +
+  scale_y_continuous(labels = scales::comma) +
+  xlab("") + 
+  ylab("Total Gross Aid Dispersements across Aid Recipients\n(In Billions of 2015 US Dollars)") +
+  ylim(c(0,40))
+```
+
+However, before credit is given to the Busan Partnership prematurely, some of the limitations of my analysis
+should first be considered. Most notably, my pool of recipients was restricted to the 76 countries that
+received aid from all DAC countries for every year from 1998 to 2015. These countries are certainly not the only 
+ones to receive aid in this period. More importantly, because these 76 recipients have been receiving aid consistently and
+for some time, it is possible that they also have greater practice relative to newer aid recipients
+in dealing with bilateral donors. Thus, these countries may also be the countries most likely to see progress 
+on aid fragmentation; whereas newer recipients may not. Sample bias, therefore, may be a serious concern, and these findings 
+may not translate well to a larger set of cases that includes more recent recipients. Even so, this set of cases may be theoretically interesting in its own right. It may be that progress on aid fragmentation requires
+not only coordination among donors, but also a recipient that has greater experience doing diplomacy with donors. 
+
+The findings of this study and the questions that these findings raise will hopefully spur further research on international development cooperation. Such research has not only the potential to speak to the broad international relations literature on cooperation and compliance, but also the potential to provide informative answers to prescient policy questions about how to best pursue development cooperation so as to ensure more effective results for countries that receive aid.
+
+# References
+  - Annen, Kurt, and Luc Moers. 2012. "Donor Competition for Aid Impact, and Aid Fragmentation." IMF Working Paper No. 12/204.
+  - Berthelemy, J.C. 2006. Bilateral Donors' Interest vs. Recipients' Development Motives in Aid Allocation: Do All Donors Behave the Same? *Review of Development Economics* 10(2): 179–194.
+  - CIA. 2017. *The World Factbook*. (December 13, 2017)
+  - Davies, Ronald B., and Stephan Klasen. 2017. "Darlings and Orphans: Interactions across Donors in International Aid." *The Scandinavian Journal of Economics.* Forthcoming.
+  - Frot, E., and J. Santiso. 2011. "Herding in aid allocation." *Kyklos* 64(1): 54–74.
+  - Nunnenkamp, Peter, Hannes Ohler, and Rainer Thiele. 2013. "Donor Coordination and Specialization: Did the Paris Declaration Make a Difference?" *Review of World Economics* 149: 537-563.
+  - OECD. 2012. *Aid Effectiveness 2011: Progress in Implementing the Paris Declaration*. Series on *Better Aid*. Paris: OECD Publishing.
+  - --. 2017. *Aid (ODA) disbursements to countries and regions* [DAC2a]. 
+  - OECD/UNDP. 2016. *Making Development Co-operation More Effective: 2016 Progress Report.* Paris: OECD Publishing.
+  - Severino, J.M., and O. Ray. 2010. "The end of ODA (II): The birth of hypercollective action." Working
+Paper 218. Washington, DC: Center for Global Development.
+  - Steinwand, Martin C. 2015. "Compete or Coordinate? Aid Fragmentation and Lead Donorship." *International Organization* 69(2): 443-472.
