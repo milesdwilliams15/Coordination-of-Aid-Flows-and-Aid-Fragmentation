@@ -74,7 +74,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE,
 ## Descriptive Analysis
 
 ```{r data, include=FALSE}
-aid <- read.csv("C:/Users/Miles/Documents/UIUC/Fall 2017 Classes/Quant 1/Quant 1 Homework/Research Note/aid.data.2.0.csv")
+aid <- read.csv("https://raw.githubusercontent.com/milesdwilliams15/Coordination-of-Aid-Flows-and-Aid-Fragmentation/master/aid.data.2.0.csv")
 library(dplyr)
 library(ggplot2)
 aid$HHI <- (rowSums((aid[,-c(1:3)]/aid$Total)^2))*100
